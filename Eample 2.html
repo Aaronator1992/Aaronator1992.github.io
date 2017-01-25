@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>A Program to Say Hello</title>
+<script type="text/javascript">
+/* Defining Table
+* Input: A person's name
+* Processing: Create a greeting for that person
+* Output: The greeting
+*/
+function greetUser() {
+// This line prompts the user to type in his name.
+var name = window.prompt("Please enter your name");
+
+// Create a personalized greeting for the user.
+var greeting = "Hi " + name + ".  Have an excellent day dude!!!!";
+
+// The next line causes the computer to display
+// a greeting to the user in a popup window.
+window.alert(greeting);
+}
+</script>
+</head>
+
+<body>                                      
+<button type="button" onclick="greetUser()">Hello</button>
+</body>
+</html>
