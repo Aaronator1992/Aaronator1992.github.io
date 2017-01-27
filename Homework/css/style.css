@@ -4,18 +4,18 @@ header{ font-family:monospace ,sans-serif;
     background-color: aqua;
 }
 
-p{
+p { font-size: 3em;
     color:aqua;
 }
 
-h1{
+h1 {
     color:white;
 }
 
-h2{
+h2 {
     color:white;
 }
 
-body{
+body {
     background-image: url(/Images/background.jpg);
 }
