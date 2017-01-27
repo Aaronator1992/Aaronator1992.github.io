@@ -1,0 +1,20 @@
+header{ font-family:monospace ,sans-serif;
+padding: 0em;
+background-color: aqua;
+}
+
+p{
+color:aqua;
+}
+
+h1{
+color:white;
+}
+
+h2{
+color:white;
+}
+
+body{
+background-image: url(/Images/background.jpg);
+}
