@@ -1,22 +1,7 @@
 
-/*
-body{ background-image:url(/Images/background.jpg);}
-
-h1{ color:white; }
-h2{ color:white; }
-
-p { color:aqua;  }
-#top-header{font-family:monospace ,sans-serif;}
-#top-row{padding: 0em;
-  background-color: aqua}
-*/
-header{
+header{ font-family:monospace ,sans-serif;
     padding: 0em;
     background-color: aqua;
-}
-
-#top-header{
-    font-family: monospace, sans-serif;
 }
 
 p{
