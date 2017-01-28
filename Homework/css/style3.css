@@ -11,7 +11,9 @@ h1,h2{
 color:white;
 }
 
-
+a:hover {
+    background-color: rgb(255, 214, 255);
+}
 
 body{
     background-image: url(/Images/avatar.jpg);}
