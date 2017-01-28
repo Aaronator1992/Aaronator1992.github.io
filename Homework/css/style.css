@@ -4,17 +4,14 @@ header{ font-family:monospace ,sans-serif;
     background-color: aqua;
 }
 
-p { font-size: 3em;
+p { font-size: 14pt;
     color:aqua;
 }
 
-h1 {
+h1,h2 {
     color:white;
 }
 
-h2 {
-    color:white;
-}
 
 body {
     background-image: url(/Images/background.jpg);
