@@ -1,17 +1,22 @@
-
-header{ font-family:monospace ,sans-serif;
+header {
+    font-family: monospace, sans-serif;
     padding: 0em;
     background-color: aqua;
 }
 
-p { font-size: 14pt;
-    color:aqua;
+p {
+    font-size: 14pt;
+    color: aqua;
 }
 
-h1, h2 {
-    color:white;
+h1,
+h2 {
+    color: white;
 }
 
+.nav li >a {
+    text-decoration: none;
+}
 
 body {
     background-image: url(/Images/background.jpg);
