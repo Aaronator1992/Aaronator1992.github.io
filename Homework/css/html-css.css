@@ -9,33 +9,47 @@
 
 body {
     background-color: aqua;
+    font-family: fantasy;
     margin: 0;
     padding: 0;
-    font-size: 18px;
-    font-size: 1em;
+    font-size: 15px;
 }
 
 #wrapper {
     width: 100%;
 }
 
-#nav>#lo-hi {
-    display: inline;
-    list-style: none;
+#page-search {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+#img {
+    padding: 2em;
+}
+
+#page-nav #lo-hi {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+    list-style-type: none;
 }
 
 #hi-lo {
+    display: flex;
     display: inline-block;
+    align-content: space-around;
+    list-style-type: none;
     width: 75%;
-    list-style: none;
     font-family: monospace, monospace;
 }
 
 #hi-lo>li {
     display: inline-block;
     width: 25%;
-}
-
-#hi-low #conditions {
-    width: 50%;
 }
