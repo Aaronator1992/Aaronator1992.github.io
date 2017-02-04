@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Volume of a Tetrahedron</title>
+    <script type="text/javascript">
+        function computeVolume() {
+            /*  input: e                                             */
+            /*  processing: e is put into the formula and read out   */
+            /*  output: volume of the regular tetrahedron            */
+            var x = 4.2;
+            var y = 3;
+            var z = x * y;
+            z = Math.round(z);
+            document.getElementById('volume').innerHTML = z;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Volume of a Tetrahedron</h1> Side Length
+    <input type="text" id="length">
+    <br>
+    <button type="button" onclick="computeVolume()">Volume</button>
+    <br> Volume
+    <div id="volume"></div>
+</body>
+
+</html>
