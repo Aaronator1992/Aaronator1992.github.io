@@ -10,7 +10,6 @@
 body {
     background-color: aqua;
     font-family: fantasy;
-    color: white;
     margin: 0;
     padding: 0;
     font-size: 15px;
@@ -31,14 +30,15 @@ body {
 }
 
 #img {
-    padding: 2em;
+    padding: 1em;
 }
 
 #page-nav #lo-hi {
     display: flex;
-    align-content: space-around;
+    align-content: center;
     justify-content: space-between;
     list-style-type: none;
+    color: white;
 }
 
 #hi-lo {
@@ -46,11 +46,11 @@ body {
     display: inline-block;
     align-content: space-around;
     list-style-type: none;
-    width: 75%;
+    width: 15%;
     font-family: monospace, monospace;
 }
 
 #hi-lo>li {
     display: inline-block;
-    width: 25%;
+    width: 40%;
 }
