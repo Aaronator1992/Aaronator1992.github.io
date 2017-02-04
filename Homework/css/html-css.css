@@ -28,7 +28,7 @@ body {
     display: inline-block;
     width: 75%;
     list-style: none;
-    font-family: cursive, monospace;
+    font-family: monospace, monospace;
 }
 
 #hi-lo>li {
