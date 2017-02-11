@@ -72,8 +72,10 @@ ul #hourly-temps {
     text-decoration: none;
 }
 
-#pic1 {
-    height: 30px;
+#pic1,
+#pic2,
+#pic3 {
+    height: 100px;
     width: auto;
 }
 
