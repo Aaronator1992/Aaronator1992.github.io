@@ -56,26 +56,48 @@ body {
     padding: 0;
 }
 
-
-/*
-#hi-lo {
-    display: flex;
-    display: inline-block;
-    align-content: space-around;
-    list-style-type: none;
-    width: 15%;
-    font-family: monospace, monospace;
-}*/
-
 #hi-lo>li {
     display: inline-block;
     width: 24%;
-    /* Browser rounding errors force this down */
-    text-align: center;
+    Browser rounding errors force this down text-align: center;
     vertical-align: top;
 }
 
 #hi-lo #conditions {
     width: 49%;
-    /* Browser rounding errors force this down */
+    Browser rounding errors force this down
+}
+
+ul #hourly-temps {
+    text-decoration: none;
+}
+
+#pic1 {
+    height: 30px;
+    width: auto;
+}
+
+main ul:nth-of-type(2) {
+    border: 1px solid #000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+main ul:nth-of-type(2) li {
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0;
+    padding: .05em;
+}
+
+@media handheld and (max-width: 320px) {
+    {}
+    /* styles go here */
+}
+
+@media handheld and (max-width: 1024px) {
+    /* styles go here */
 }

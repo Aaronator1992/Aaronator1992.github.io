@@ -13,3 +13,8 @@ body {
     background-color: #fff;
     width: 100%;
 }
+
+#hourly-temps {
+    display: flex;
+    text-decoration: none;
+}
