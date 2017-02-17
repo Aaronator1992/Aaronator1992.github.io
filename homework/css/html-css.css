@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+ul #hourly-idea {
+    text-decoration: none;
+}
+
+body {
+    background-color: cornflowerblue;
+    font-family: fantasy;
+    margin: 1em;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+#container,
+#container1,
+#container2,
+#container3,
+#container4,
+#container5 {
+    display: flex;
+}
+.high{display:flex;
+flex-wrap: wrap-reverse}
+
+.hourly-idea {
+    display: none;
+}
+
+
+/*PAGE NAV*/
+
+#page-nav ul {
+    display: none;
+}
+
+#page-nav:before {
+    display: block;
+}
+
+#page-nav:after {
+    display: block;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    content: "Menu";
+}
+
+#img {
+    padding: 1em;
+}
+
+#page-nav {
+    padding: 1em;
+    background-color: yellow;
+}
+
+#page-nav #lo-hi {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    list-style-type: none;
+    color: white;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#page-search {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* WEATHER*/
+
+#hi-lo {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#hi-lo>li {
+    display: inline;
+    width: 24%;
+    text-align: center;
+    vertical-align: top;
+}
+
+#hi-lo #conditions {
+    width: 25%;
+}
+
+#pic1,
+#pic2,
+#pic3 {
+    height: 300px;
+    width: auto;
+}
+
+
+/* @media */
+
+@media screen and (min-width: 767px) {
+    .hourly-idea {
+        display: block !important;
+    }
+    body main > div:nth-of-type(n),
+    aside,
+    aside article {
+        width: 100%;
+        padding: 0 1em;
+        box-sizing: border-box;
+    }
+    .container,
+    .container2 {
+        display: flex;
+        flex-flow: row;
+        z-index: 50;
+    }
+    .hourly-idea-am,
+    .hourly-idea-pm {
+        flex-direction: row;
+    }
+    .hourly-idea-am,
+    .hourly-idea-pm {
+        display: none;
+        text-align: center;
+        padding-top: 1em;
+        display: inline-block;
+        border: 3px solid yellow;
+        width: 4em;
+        height: 4em;
+        background-color: teal;
+    }
+}
+
+
+/* browser */
+
+@media screen and (min-width: 1024) {
+    /* styles go here */
+    .hourly-idea {
+        display: show;
+    }
+    body main > div:nth-of-type(n),
+    aside,
+    aside article {
+        width: 100%;
+        padding: 0 1em;
+        box-sizing: border-box;
+    }
+    .container,
+    .container2 {
+        display: flex;
+        flex-flow: row;
+        position: relative;
+        z-index: 50;
+    }
+    .hourly-idea-am,
+    .hourly-idea-pm {
+        flex-direction: row;
+    }
+    .hourly-idea-am,
+    .hourly-idea-pm {
+        display: none;
+        text-align: center;
+        padding-top: 1em;
+        display: inline-block;
+        flex-direction: row;
+        border: 3px solid yellow;
+        width: 4em;
+        height: 4em;
+        background-color: teal;
+    }
+}

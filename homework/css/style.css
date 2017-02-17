@@ -1,0 +1,48 @@
+header {
+    font-family: monospace, sans-serif;
+    padding: 0em;
+    background-color: aqua;
+}
+
+p {
+    font-size: 14pt;
+    color: aqua;
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+footer {
+    padding: 2em;
+    background-color: aqua;
+}
+
+.id li > a {
+    text-decoration: none;
+}
+
+a:link {
+    color: hotpink;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:focus {
+    color: aqua;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:active {
+    color: fuchsia
+}
+
+body {
+    background-image: url(/Images/background.jpg);
+}
