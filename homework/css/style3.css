@@ -1,15 +1,18 @@
-header{ font-family:monospace ,sans-serif;
-padding: 0em;
-background-color: aqua;
+header {
+    font-family: monospace, sans-serif;
+    padding: 0em;
+    background-color: aqua;
 }
 
-p{
-color:aqua;
+p {
+    color: aqua;
 }
 
-h1,h2{
-color:white;
+h1,
+h2 {
+    color: white;
 }
+
 img {
     max-width: 150px;
 }
@@ -18,5 +21,6 @@ a:hover {
     background-color: rgb(255, 214, 255);
 }
 
-body{
-    background-image: url(/Images/avatar.jpg);}
+body {
+    background-image: url(/images/avatar.jpg);
+}
