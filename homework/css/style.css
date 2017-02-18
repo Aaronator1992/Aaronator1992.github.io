@@ -14,6 +14,10 @@ h2 {
     color: white;
 }
 
+.list {
+    list-style-type: none;
+}
+
 footer {
     padding: 2em;
     background-color: aqua;
