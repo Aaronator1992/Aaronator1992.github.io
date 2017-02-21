@@ -1,0 +1,267 @@
+body {
+    font-size: 12pt;
+    font-weight: 100;
+    font-family: monospace;
+}
+
+nav {
+    background-color: #013220;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2em;
+    list-style-type: none;
+}
+
+nav a {
+    padding-left: 3em;
+    text-decoration: none;
+    color: #A4A938;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+.box {
+    background-color: #013220;
+}
+
+#logo {
+    position: relative;
+    float: left;
+    top: 30px;
+    left: 20px;
+    background-color: white;
+}
+
+.fullwidth {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    color: #A4A938;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Impact";
+    line-height: 100%;
+    color: #A4A938;
+}
+
+footer {
+    max-width: 1200px;
+    max-height: 55px;
+    margin-top: 1em;
+    background-color: #013220;
+    font-family: serif;
+}
+
+#content {
+    /*background-color: #8C2F5E;*/
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0em;
+}
+
+#banner {
+    max-width: 1200px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+#top-header {
+    text-align: left;
+    padding: 0em;
+}
+
+#top-row {
+    margin-top: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: ;
+    padding-bottom: ;
+    text-align: left;
+    align-items: center;
+}
+
+#middle-row {
+    margin-top: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #013220;
+    text-align: left;
+    align-items: center;
+}
+
+.leftcol,
+.rightcol {
+    width: 45%;
+    flex: 1 0 10em;
+    margin: 1em;
+    justify-content: space-between;
+}
+
+.img1,
+.img2 {
+    width: 175%;
+    height: auto;
+}
+
+.rightcol {
+    text-decoration-color: #013220;
+}
+
+#bottom-row {
+    text-align: center;
+}
+
+#bottom-footer {
+    min-width: 1000px;
+    max-height: 55px;
+    background-color: #013220;
+}
+
+.copy-right {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.icons {
+    max-width: 1200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*$$$$$$$$$$$$*/
+
+
+/* Rates Page */
+
+
+/*$$$$$$$$$$$$*/
+
+.content {
+    display: flex;
+}
+
+h3 {
+    padding-left: 10em;
+    color: #A4A938;
+}
+
+#top {
+    height: 2em;
+    background-color: #A4A938;
+}
+
+.rightcoll .grand {
+    max-width: 400px;
+    padding-top: 6em;
+    padding-right: 1em;
+}
+
+.leftcoll .parag {
+    padding: 2em;
+    color: #A4A938;
+    max-width: 75%;
+}
+
+#middle-row-rates {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    background-color: #013220;
+    padding: 1em;
+    text-align: left;
+    align-items: center;
+}
+
+#bottom {
+    max-width: 1200px;
+    top: 0px;
+    height: 2em;
+    background-color: #A4A938;
+}
+
+.icons {
+    padding: 1em;
+    background-color: #013220;
+}
+
+
+/*$$$$$$$$$$$$$*/
+
+
+/* Rivers Page */
+
+
+/*$$$$$$$$$$$$$*/
+
+#top {
+    height: 2em;
+    background-color: #A4A938;
+}
+
+#middle {
+    margin: 0em;
+    display: flex;
+    justify-content: row;
+    align-items: top;
+}
+
+.gray,
+.Fork {
+    font-family: 'Sofia';
+    font-size: 22px;
+    color: #A4A938;
+    top: -150px;
+    left: -20px;
+    align-content: row;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    float: center;
+}
+
+.grand {
+    font-family: 'Sofia';
+    font-size: 22px;
+    color: #A4A938;
+    top: -130px;
+    left: -20px;
+    align-content: row;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    float: center;
+}
+
+.leftcoll,
+.midcoll,
+.rightcoll {
+    max-width: 30%;
+    min-width: 30%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+}
