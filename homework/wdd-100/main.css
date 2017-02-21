@@ -172,13 +172,13 @@ h3 {
     background-color: #A4A938;
 }
 
-.rightcoll .grand {
+.rightcol .grand {
     max-width: 400px;
     padding-top: 6em;
     padding-right: 1em;
 }
 
-.leftcoll .parag {
+.leftcol .parag {
     padding: 2em;
     color: #A4A938;
     max-width: 75%;
