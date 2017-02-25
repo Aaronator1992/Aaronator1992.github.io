@@ -185,6 +185,7 @@ h2 {
 
 .hourly-idea-am,
 .hourly-idea-pm {
+    margin-left: 30px;
     justify-content: center;
     display: inline-block;
 }
