@@ -11,6 +11,9 @@
 /* TABLET */
 
 @media screen and (min-width: 767px) {
+    .content {
+        max-width: 767px;
+    }
     .hourly-idea-am,
     .hourly-idea-pm {
         justify-content: center;
@@ -32,7 +35,7 @@
 
 body {
     background-color: cornflowerblue;
-    font-family: fantasy;
+    font-family: 'Raleway', sans-serif;
     margin: 1em;
     padding: 0;
     font-size: 1.2em;
@@ -49,6 +52,11 @@ body {
 .hourly-idea-am,
 .hourly-idea-pm {
     display: none;
+}
+
+#page-footer {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -69,8 +77,12 @@ ul .hourly-idea-am,
 }
 
 #page-nav {
-    padding: 1em;
+    padding: 3px;
     background-color: yellow;
+}
+
+#lo-hi {
+    text-decoration: none;
 }
 
 #page-nav #lo-hi {
@@ -78,7 +90,7 @@ ul .hourly-idea-am,
     align-content: center;
     justify-content: space-around;
     list-style-type: none;
-    color: white;
+    color: black;
 }
 
 #high-low {
@@ -88,6 +100,8 @@ ul .hourly-idea-am,
 
 .logo {
     position: relative;
+    float: left;
+    left: 60px;
     max-height: 50%;
     max-width: auto;
 }
@@ -95,6 +109,7 @@ ul .hourly-idea-am,
 .container,
 .container2 {
     display: flex;
+    justify-content: center;
     flex-flow: row;
     position: relative;
     z-index: 50;
@@ -109,6 +124,11 @@ ul .hourly-idea-am,
 #page-search {
     display: flex;
     justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: space-around;
 }
 
 h2 {
@@ -159,7 +179,7 @@ h2 {
 #pic1,
 #pic2,
 #pic3 {
-    height: 300px;
+    height: 200px;
     width: auto;
 }
 

@@ -1,124 +1,127 @@
-                                                                                                header {
-                                                                                                font-family: monospace, sans-serif;
-                                                                                                padding: 0em;
-                                                                                                background-color: aqua;
-                                                                                            }
+header {
+    position: fixed;
+    top: 16px;
+    font-family: 'Raleway', sans-serif;
+    padding: 0em;
+}
 
-                                                                                            p {
-                                                                                                font-size: 14pt;
-                                                                                                color: aqua;
-                                                                                            }
+p {
+    font-size: 14pt;
+    color: aqua;
+}
 
-                                                                                            h1,
-                                                                                            h2 {
-                                                                                                color: white;
-                                                                                            }
+h1,
+h2 {
+    color: white;
+}
 
-                                                                                            .list {
-                                                                                                list-style-type: none;
-                                                                                            }
-                                                                                            /*
+.list {
+    list-style-type: none;
+}
+
 footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
     padding: 2em;
+    background-color: hotpink;
+}
+
+.id li > a {
+    text-decoration: none;
+}
+
+a:link {
+    color: hotpink;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:focus {
+    color: aqua;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:active {
+    color: fuchsia
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    align-items: center;
     background-color: aqua;
-}*/
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    /*overflow: hidden;*/
+}
 
-                                                                                            .id li > a {
-                                                                                                text-decoration: none;
-                                                                                            }
+.container {
+    align-items: center;
+    align-self: center;
+    background: url(/images/background.jpg) center center;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    min-height: 1000px;
+    justify-content: center;
+    width: 1900px;
+}
 
-                                                                                            a:link {
-                                                                                                color: hotpink;
-                                                                                            }
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
-                                                                                            a:visited {
-                                                                                                color: purple;
-                                                                                            }
+.website {
+    padding-top: 13em;
+}
 
-                                                                                            a:focus {
-                                                                                                color: aqua;
-                                                                                            }
+h1 {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 46px;
+    margin: 0 0 60px 0;
+    text-align: center;
+    text-shadow: 0px 2px 4px rgba(34, 62, 66, .75);
+    width: 50%;
+}
 
-                                                                                            a:hover {
-                                                                                                color: aqua;
-                                                                                            }
+a.btn {
+    background: linear-gradient(45deg, rgba(255, 184, 115, 0.65) 0%, rgba(255, 124, 189, 0.65) 50%, rgba(108, 0, 153, 0.65) 100%);
+    border-radius: 2px;
+    box-shadow: 0px 2px 4px rgba(34, 62, 66, .25);
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 16px 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: box-shadow 1s ease;
+    transition: box-shadow 1s ease;
+}
 
-                                                                                            a:active {
-                                                                                                color: fuchsia
-                                                                                            }
-                                                                                            /*body {background-image: url(/images/background.jpg);
-}*/
-
-                                                                                            * {
-                                                                                                margin: 0;
-                                                                                                padding: 0;
-                                                                                            }
-
-                                                                                            html,
-                                                                                            body {
-                                                                                                height: 100%;
-                                                                                                width: 100%;
-                                                                                            }
-
-                                                                                            body {
-                                                                                                align-items: center;
-                                                                                                background-color: aqua;
-                                                                                                display: flex;
-                                                                                                font-family: 'Raleway', sans-serif;
-                                                                                                flex-direction: column;
-                                                                                                justify-content: center;
-                                                                                                /*overflow: hidden;*/
-                                                                                            }
-
-                                                                                            .container {
-                                                                                                align-items: center;
-                                                                                                align-self: center;
-                                                                                                background: url(/images/background.jpg) center center;
-                                                                                                border-radius: 50%;
-                                                                                                display: flex;
-                                                                                                flex-direction: column;
-                                                                                                min-height: 1000px;
-                                                                                                justify-content: center;
-                                                                                                width: 1900px;
-                                                                                            }
-
-                                                                                            .list {
-                                                                                                display: flex;
-                                                                                                align-items: center;
-                                                                                                justify-content: space-around;
-                                                                                            }
-
-                                                                                            .website {
-                                                                                                padding-top: 13em;
-                                                                                            }
-
-                                                                                            h1 {
-                                                                                                color: #fff;
-                                                                                                font-family: 'Playfair Display', serif;
-                                                                                                font-size: 52px;
-                                                                                                font-weight: 900;
-                                                                                                line-height: 46px;
-                                                                                                margin: 0 0 60px 0;
-                                                                                                text-align: center;
-                                                                                                text-shadow: 0px 2px 4px rgba(34, 62, 66, .75);
-                                                                                                width: 50%;
-                                                                                            }
-
-                                                                                            a.btn {
-                                                                                                background: linear-gradient(45deg, rgba(255, 184, 115, 0.65) 0%, rgba(255, 124, 189, 0.65) 50%, rgba(108, 0, 153, 0.65) 100%);
-                                                                                                border-radius: 2px;
-                                                                                                box-shadow: 0px 2px 4px rgba(34, 62, 66, .25);
-                                                                                                color: #fff;
-                                                                                                font-size: 18px;
-                                                                                                letter-spacing: 1px;
-                                                                                                padding: 16px 32px;
-                                                                                                text-decoration: none;
-                                                                                                text-transform: uppercase;
-                                                                                                -webkit-transition: box-shadow 1s ease;
-                                                                                                transition: box-shadow 1s ease;
-                                                                                            }
-
-                                                                                            a.btn:hover {
-                                                                                                box-shadow: 0px 4px 4px rgba(34, 62, 66, .5);
-                                                                                                -webkit-transition: box-shadow 1s ease;
-                                                                                                transition: box-shadow 1s ease;
+a.btn:hover {
+    box-shadow: 0px 4px 4px rgba(34, 62, 66, .5);
+    -webkit-transition: box-shadow 1s ease;
+    transition: box-shadow 1s ease;
+}
