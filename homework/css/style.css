@@ -19,14 +19,13 @@ h2 {
     list-style-type: none;
 }
 
-
-/*footer {
+footer {
     bottom: 0;
     width: 100%;
     position: fixed;
-    padding: 2em;
+    padding: 1em;
     background-color: hotpink;
-}*/
+}
 
 .id li > a {
     text-decoration: none;
