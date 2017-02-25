@@ -25,6 +25,7 @@ footer {
     position: fixed;
     padding: 1em;
     background-color: hotpink;
+    /*background-image: url(/images/new-tech-banner-image.jpg);*/
 }
 
 .id li > a {
