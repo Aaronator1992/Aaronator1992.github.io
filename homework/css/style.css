@@ -85,6 +85,15 @@ body {
     width: 1900px;
 }
 
+.logo {
+    position: relative;
+    float: center;
+    top: 520px;
+    left: 420px;
+    max-height: 100%;
+    max-width: auto;
+}
+
 .list {
     display: flex;
     align-items: center;
