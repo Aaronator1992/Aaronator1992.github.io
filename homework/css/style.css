@@ -19,11 +19,16 @@ h2 {
     list-style-type: none;
 }
 
+.copy {
+    display: flex;
+    justify-content: flex-start;
+    padding: .5em;
+}
+
 footer {
     bottom: 0;
     width: 100%;
     position: fixed;
-    padding: 1em;
     background-color: hotpink;
     /*background-image: url(/images/new-tech-banner-image.jpg);*/
 }
@@ -98,6 +103,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .website {
