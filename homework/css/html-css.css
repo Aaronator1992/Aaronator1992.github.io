@@ -7,32 +7,6 @@
     box-sizing: border-box;
 }
 
-
-/* TABLET */
-
-@media screen and (min-width: 767px) {
-    .content {
-        max-width: 767px;
-    }
-    .hourly-idea-am,
-    .hourly-idea-pm {
-        justify-content: center;
-        display: inline-block;
-    }
-}
-
-
-/* BROWSER */
-
-@media screen and (min-width: 1024) {
-    .hourly-idea-am,
-    .hourly-idea-pm {
-        align-items: center;
-        justify-content: center;
-        display: inline-block;
-    }
-}
-
 body {
     background-color: cornflowerblue;
     font-family: 'Raleway', sans-serif;
@@ -49,22 +23,25 @@ body {
     width: 200%;
 }
 
-.hourly-idea-am,
-.hourly-idea-pm {
-    display: none;
+p {
+    display: flex;
+    justify-content: space-around;
 }
 
-#page-footer {
+h1,
+h2 {
     display: flex;
     justify-content: center;
 }
 
-.contact {
-    margin-bottom: 1em;
-}
+
+/*****************/
 
 
-/*PAGE NAV*/
+/*PAGE NAV STYLES*/
+
+
+/*****************/
 
 ul .hourly-idea-am,
 .hourly-idea-pm {
@@ -102,6 +79,35 @@ ul .hourly-idea-am,
     flex-wrap: wrap-reverse;
 }
 
+#page-search {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    content: "Menu";
+}
+
+
+/***********/
+
+
+/**WEATHER**/
+
+
+/***********/
+
+.hourly-idea-am,
+.hourly-idea-pm {
+    display: none;
+}
+
+.contact {
+    margin-bottom: 1em;
+}
+
 .logo {
     position: relative;
     float: left;
@@ -118,31 +124,6 @@ ul .hourly-idea-am,
     position: relative;
     z-index: 50;
 }
-
-.text {
-    display: flex;
-    justify-content: center;
-    content: "Menu";
-}
-
-#page-search {
-    display: flex;
-    justify-content: center;
-}
-
-p {
-    display: flex;
-    justify-content: space-around;
-}
-
-h1,
-h2 {
-    display: flex;
-    justify-content: center;
-}
-
-
-/* WEATHER*/
 
 .margin-right {
     margin-right: 2em;
@@ -193,4 +174,50 @@ h2 {
     margin-left: 30px;
     justify-content: center;
     display: inline-block;
+}
+
+
+/**********/
+
+
+/**FOOTER**/
+
+
+/**********/
+
+#page-footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+/**********/
+
+
+/**TABLET**/
+
+
+/**********/
+
+@media screen and (min-width: 767px) {
+    .content {
+        max-width: 767px;
+    }
+    .hourly-idea-am,
+    .hourly-idea-pm {
+        justify-content: center;
+        display: inline-block;
+    }
+}
+
+
+/**BROWSER**/
+
+@media screen and (min-width: 1024) {
+    .hourly-idea-am,
+    .hourly-idea-pm {
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
+    }
 }
