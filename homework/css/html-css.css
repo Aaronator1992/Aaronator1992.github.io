@@ -58,7 +58,8 @@ ul .hourly-idea-am,
 }
 
 #page-nav {
-    padding: 3px;
+    padding: 1em;
+    margin-top: 10px;
     background-color: yellow;
 }
 
@@ -111,7 +112,7 @@ ul .hourly-idea-am,
 .logo {
     position: relative;
     float: left;
-    left: 60px;
+    left: 0px;
     max-height: 50%;
     max-width: auto;
 }
