@@ -70,7 +70,7 @@ body {
 
 body {
     align-items: center;
-    background-color: aqua;
+    background: url(/images/stars.jpg);
     display: flex;
     font-family: 'Raleway', sans-serif;
     flex-direction: column;
@@ -81,20 +81,20 @@ body {
 .container {
     align-items: center;
     align-self: center;
-    background: url(/images/waterfall-norway.jpg) center center;
+    background: url(/images/nature.jpg) center center;
     border-radius: 50%;
     display: flex;
     flex-direction: column;
-    min-height: 1000px;
+    min-height: 1200px;
     justify-content: center;
-    width: 1900px;
+    width: 2000px;
 }
 
 .logo {
     position: relative;
     float: center;
-    top: 520px;
-    left: 420px;
+    top: 630px;
+    left: 230px;
     max-height: 100%;
     max-width: auto;
 }
