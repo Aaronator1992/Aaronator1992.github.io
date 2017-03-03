@@ -36,7 +36,7 @@ h6 {
 }
 
 h1 {
-    font-size: 1.05em;
+    font-size: 1em;
     /*	line-height: 1.25;*/
 }
 
@@ -167,7 +167,7 @@ h1 {
 
 @media (min-width: 41.67em) {
     body {
-        font-size: 1.25em;
+        font-size: 1em;
     }
     h1 {
         font-size: 2em;
