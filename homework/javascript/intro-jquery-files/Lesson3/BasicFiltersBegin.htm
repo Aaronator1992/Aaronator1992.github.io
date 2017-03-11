@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Filters</title>
+    <link rel="stylesheet" href="css/filters.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+
+            $('li:even').css('background-color', 'rgb(248, 95, 95)')
+            $('li:odd').css('background-color', 'rgb(248, 95, 95)')
+            $('li:eq(3)').css('background-color', 'rgb(248, 95, 95)')
+
+        })
+    </script>
+
+</head>
+
+<body>
+    <ul>
+        <li>Apples</li>
+        <li>Oranges</li>
+        <li>Peaches</li>
+        <li>Strawberries</li>
+        <li>Kiwi</li>
+    </ul>
+
+</body>
+
+</html>
