@@ -8,8 +8,23 @@
     </script>
     <script>
     $(function(){
-        // jQuery Code goes here
+        $('input').on({
+            focus:function(){
+                $(this).addClass('focus');
+            },
+            blur:function(){
+                $(this).removeClass('focus');
+            },
+            select:function(){
+                $(this).addClass('select');
+            }
 
+        })
+$('#accountType').change(function(){
+
+    alert("you selected the " + $(this).val() + " package! ");
+
+})
     })
     </script>
 </head>

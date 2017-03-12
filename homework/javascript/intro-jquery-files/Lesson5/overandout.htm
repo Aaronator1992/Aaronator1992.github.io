@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <title>Mouse Events</title>
     <link rel="stylesheet" href="css/overandout.css">
-    <!--<script src="js/jquery-3.0.0.min.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
+    </script>
     <script>
         $(function () {
 
@@ -14,8 +15,15 @@
                 var colors = ['Red', 'Green', 'Yellow', 'Blue', 'Purple']
                 return colors[parseInt(Math.random() * colors.length)];
             }
+$('.outerOne').on('mouseover', function(){$(this).css('background-color', randomize);
+                                        })
+$('.innerOne').on('mouseover', function(){$(this).css('background-color', randomize);
+                                        })
+$('.outerTwo').on('mouseenter', function(){$(this).css('background-color', randomize);
+                                         })
+$('.innerTwo').on('mouseenter', function(){$(this).css('background-color', randomize);
+                                         })
 
-            // Your jQuery Code goes here
 
         })
     </script>
@@ -34,7 +42,6 @@
         </div>
     </div>
 </body>
-<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
-</script>
+
 
 </html>

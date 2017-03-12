@@ -114,6 +114,20 @@ body {
     padding-top: 13em;
 }
 
+li {
+    float: left;
+    text-align: center;
+
+}
+
+
+li > ul {
+    position:relative;
+    clear:both;
+    /* Hide the Submenus */
+    display:none;
+}
+
 h1 {
     color: #fff;
     font-family: 'Playfair Display', serif;
@@ -145,3 +159,4 @@ a.btn:hover {
     -webkit-transition: box-shadow 1s ease;
     transition: box-shadow 1s ease;
 }
+

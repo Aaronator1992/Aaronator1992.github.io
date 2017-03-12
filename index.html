@@ -6,21 +6,30 @@
     <title> Temporary Homepage </title>
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/homework/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
+    </script>
+    <script>
+        $(function () {
+            /*$('.dropdownMenu > li').hover( function(){
+                    $(this).children("ul").slideDown(200);
+                }, function(){
+                    $(this).children("ul").slideUp(200);}
+                */
 
+            $('.dropdownMenu > li').hover(function () {
+                $(this).children("li").slideToggle(200);
+            })
+        })
+
+    </script>
 </head>
 <header>
 
     <!--<nav class="id">
         <ul class="list">
-            <li> <a class="btn" href="/homework/html/visitor_analysis_persona.html">Visitor Analysis</a></li>
-            <li> <a class="btn" href="https://pocket86.github.io/design_principles_assessment/design_principles_assessment.html">Design Principles Assessment</a></li>
-            <li> <a class="btn" href="/homework/html/weather_analysis_persona.html">Weather Analysis Persona</a></li>
-            <li> <a class="btn" href="/homework/html/franklin-weather.html"> Weather Site</a></li>
-            <li> <a class="btn" href="/homework/wdd-100/index.html"> WDD-100 </a></li>
-        </ul>
+<li> <a class="btn" href="/homework/html/visitor_analysis_persona.html">Visitor Analysis</a><ul><li> <a class="btn" href="https://pocket86.github.io/design_principles_assessment/design_principles_assessment.html">Design Principles Assessment</a></li></ul></li></ul>
 
-    </nav>
--->
+    </nav>-->
 </header>
 
 
@@ -32,15 +41,16 @@
     </div>
     <div class="container">
         <h1>Temporary Homepage</h1>
-        <ul class="list">
+        <ul class="list" class ="dropdownMenu">
             <li> <a class="btn" href="/homework/html/visitor_analysis_persona.html">Visitor Analysis</a></li>
             <li> <a class="btn" href="https://pocket86.github.io/design_principles_assessment/design_principles_assessment.html">Design Principles Assessment</a></li>
             <li> <a class="btn" href="/homework/html/weather_analysis_persona.html">Weather Analysis Persona</a></li>
             <li> <a class="btn" href="/homework/html/franklin-weather.html"> Weather Site</a></li>
             <li> <a class="btn" href="/homework/responsive_media/index.html"> Responsive Media Demo</a></li>
             <li> <a class="btn" href="/homework/javascript/intro-jquery-files/Lesson4/index.htm"> jQuery</a></li>
-            <li> <a class="btn" href="/homework/wdd-100/index.html"> WDD-100 </a></li>
+            <li> <a class="btn" href="/homework/wdd-100/index.html"> WDD-100 </a>
             <li> <a class="btn" href="https://aaronatorblog.wordpress.com/"> Blog </a></li>
+
         </ul>
 
 
