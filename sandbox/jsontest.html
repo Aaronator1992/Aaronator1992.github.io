@@ -1,0 +1,37 @@
+
+<!--5313bf6e3094fdf4 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>KeyCodes</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script>
+            jQuery(document).ready(function($) {
+                $.ajax({
+                    url : "../homework/javascript/weather.json",
+                    dataType : "json",
+                    success : function(data) {
+                        var location = data['Franklin']['City'];
+                        var temp_f = data['Franklin']['High'];
+                        console.log("Current temperature in " + location + " is: " + temp_f);
+
+                        var loc = $('#loc');
+                        var temp = $('#temp');
+                        var message = $('#message');
+
+                        loc.text(location);
+                        temp.text(temp_f);
+                        message.text("Current temperature in " + location + " is: " + temp_f);
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+<h1 id = "loc"> </h1>
+<h2 id = "temp"> </h2>
+<p  id = "message"> </p>
+    </body>
+
+</html>
