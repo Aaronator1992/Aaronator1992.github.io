@@ -27,10 +27,13 @@ $(function  weather() {
             dataType : "jsonp",
             success : function(data) {
                 var location = data['location']['city'];
+                document.title = location;
                 var temp_f = data['current_observation']['temp_f'];
-              $("#image-left").text(data.forecast.simpleforecast.forecastday.high);
-                $("#image-right").text(data.forecast.simpleforecast.forecastday.low);
-              $("").text();  $("#cityDisplay").text(data.current_observation.display_location.full);
+
+                $(".image-left").text(data.forecast.simpleforecast.forecastday[0].high.fahrenheit);
+                $(".image-right").text(data.forecast.simpleforecast.forecastday[0].low.fahrenheit);
+
+                $("").text();  $("#cityDisplay").text(data.current_observation.display_location.full);
                 $("#currentTemp").text(data.current_observation.temp_f);
                 $("#Summary").text(data.current_observation.weather);
                 console.log(data);
