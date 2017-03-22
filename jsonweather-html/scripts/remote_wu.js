@@ -37,6 +37,7 @@ $(function  weather() {
                 $("#currentTemp").text(data.current_observation.temp_f);
                 $("#Summary").text(data.current_observation.weather);
                 console.log(data);
+                $("#img").img("https://icons.wxug.com/i/c/i/ICON.gif");
                 //alert("Current temperature in " + location + " is: " + temp_f);
             }
         });
