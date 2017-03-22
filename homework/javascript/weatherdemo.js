@@ -1,7 +1,7 @@
 var lon = data.location.lon;
 console.log(data);
 $.ajax({
-    url : "http://api.wunderground.com/api/5313bf6e3094fdf4/conditions/q/CO/Denver.json",
+    url : "https://api.wunderground.com/api/5313bf6e3094fdf4/conditions/q/CO/Denver.json",
     dataType : "jsonp",
     success : function(data){
         console.log(data);

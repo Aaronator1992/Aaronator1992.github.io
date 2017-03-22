@@ -21,31 +21,30 @@ $(function  weather() {
   })();
 
   // Get the data from the wunderground API
-  function getData(lat, long){
+    function getData(lat, long){
+        $.ajax({
+            url : "https://api.wunderground.com/api/5313bf6e3094fdf4/geolookup/conditions/forecast/q/" + lat + "," + long + ".json",
+            dataType : "jsonp",
+            success : function(data) {
+                var location = data['location']['city'];
+                var temp_f = data['current_observation']['temp_f'];
+              $("#image-left").text(data.forecast.simpleforecast.forecastday.high);
+                $("#image-right").text(data.forecast.simpleforecast.forecastday.low);
+              $("").text();  $("#cityDisplay").text(data.current_observation.display_location.full);
+                $("#currentTemp").text(data.current_observation.temp_f);
+                $("#Summary").text(data.current_observation.weather);
+                console.log(data);
+                //alert("Current temperature in " + location + " is: " + temp_f);
+            }
+        });
 
-      url : "http://api.wunderground.com/api/5313bf6e3094fdf4/geolookup/q/" + lat + "," + long + ".json",
-          dataType : "jsonp",
-              success : function(data){
-                  console.log(data);
-                  var location = data[''][''];
-                  var temp_f = data[''][''];
-                  console.log("Current Temperature in " + location + " is: " + temp_f);
 
-                  var locName = $('#locName');
-                  var highTemp = $('#highTemp');
-                  var tempMessage = $('#tempMessage');
-
-                  locName.html(location);
-                  highTemp.html(temp_f);
-                  tempMessage.html("Current Temperature in " + location + " is: " + temp_f);
-              }
-  });
 
 
 
       $("#cover").fadeOut(250);
-    }
-           });
+
+
 
 }
 
