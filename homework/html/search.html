@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Search page</title>
+ <link rel="stylesheet" href="/homework/css/html-css.css" type="text/css" media="screen">
+</head>
+<body>
+
+
+    <div class="container">
+        <div id="wrapper">
+            <header id="header1">
+                <div>
+                    <a href="https://aaronator1992.github.io/">
+                        <img class="logo" alt="weather logo" src="/images/logo.png" style="width:100px;height:100px;border:0;">
+                    </a>
+
+                </div>
+                <nav id="page-nav">
+
+                    <ul id="lo-hi">
+
+                        <li> <a href="https://aaronator1992.github.io/"> Home </a></li>
+                        <li> <a href="/homework/html/springfield.html"> Springfield </a> </li>
+                        <li> <a href="/homework/html/franklin-weather.html"> Franklin </a></li>
+                        <li> <a href="/homework/html/search.html"> search </a></li>
+                    </ul>
+                </nav>
+                <form method="get" action="//autocomplete.wunderground.com/aq" id="searchform">
+        <input type="search" name="query" id="query">
+        <input type="submit" name="submit" value="Search" id="send">
+    </form>
+    <!--    Display the search results here  -->
+    <section id="searchResults">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+                crossorigin = "anonymous"> </script>    <script src="/search/js/search.js"> </script>
+        <h2>Search results</h2>
+    </section>
+    </header>
+<main>
+<div>
+<div id="h1"></div>
+<div id="currenttemp"></div>
+<div id="high"></div>
+<div id="low"></div>
+<div id="summary"></div>
+</div>
+
+</main>
+        </div>
+    </div>
+</body>
+
+</html>

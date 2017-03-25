@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="/jsonweather-html/css/weather-style.css" type="text/css" media="screen">
-    <script src="/jsonweather-html/scripts/jquery-3.0.0.min.js"> </script>
+
 </head>
 <!-- *********************************************
 * Who Did You Collaborate With On This Assessment?
@@ -18,6 +18,17 @@
 * 5.
 * ******************************************** -->
 <body>
+    <form method="get" action="//autocomplete.wunderground.com/aq" id="searchform">
+        <input type="search" name="query" id="query">
+        <input type="submit" name="submit" value="Search" id="send">
+    </form>
+    <!--    Display the search results here  -->
+    <section id="searchResults">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+                crossorigin = "anonymous"> </script>    <script src="/search/js/search.js"> </script>
+        <h2>Search results</h2>
+    </section>
   <div id="wrapper">
     <header id="page-header"></header>
     <nav id="page-nav"></nav>
@@ -42,9 +53,8 @@
       <small>Last updated: </small>
     </footer>
 
-            <script src="/jsonweather-html/scripts/modules.js">
-      </script>
-    <script src="scripts/remote_wu.js"></script>
+
+
 
   </div>
 </body>
