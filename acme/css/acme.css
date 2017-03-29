@@ -1,0 +1,47 @@
+/**************************************/
+/**********MOBILE SCREEN***************/
+/**************************************/
+#body{
+    background-image: url(/acme/images/site/background.jpg);
+    background-repeat: no-repeat;
+    image-orientation: stretch;
+
+}
+#nav li {display: flex;
+
+    align-content: space-around;
+    text-decoration: none;
+    flex: 1;
+    align-items: center;
+    background-color: aqua;
+
+
+}
+
+#main{display: flex;
+
+
+}
+
+#footer{display: flex;
+}
+
+
+
+
+/**************************************/
+/***********TABLET SCREEN**************/
+/**************************************/
+
+@media screen and (min-width: 767px) {
+    .content {
+        max-width: 767px;
+    }
+}
+
+/**************************************/
+/************BROWSER*******************/
+/**************************************/
+@media screen and (min-width: 1024) {
+
+}
