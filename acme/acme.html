@@ -6,37 +6,26 @@
 <link href='https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:300' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/weather-style.css" media="screen">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/acme/css/acme.css" media="screen">
     <script
             src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
             crossorigin="anonymous"></script>
-    <script src="/acme/js/acme.json"> </script>
-    <script src="/acme/js/acme.js"> </script>
+    <script src="/acme/js/acme.js"></script>
 
 <body id = "body">
 <div id = "container">
 <header id = "header">
     <h1>Acme Site</h1>
     <h2 class="tagline">Know your items</h2>
-<!--<nav id = "nav">
-    <ul id = "ul">
-        <li id = "home"></li>
-        <li id = "anvils"></li>
-        <li id = "explosives"></li>
-        <li id = "decoys"></li>
-        <li id = "traps"></li>
 
-    </ul>
-</nav>-->
-    <nav id="nav">
-        <ul class="flexlist">
+    <nav>
+        <ul id ="nav" class="flexlist">
             <li><a href="/acme/views/home.html" title="Home">Home</a></li>
-            <li><a href="/acme/views/anvils.html" title="Anvils">Anvils</a></li>
+            <!--<li><a href="/acme/views/anvils.html" title="Anvils">Anvils</a></li>
             <li><a href="/acme/views/explosives.html" title="explosives">Explosives</a></li>
             <li><a href="/acme/views/decoys.html" title="Decoys">Decoys</a></li>
-            <li><a href="/acme/views/traps.html" title="Traps">Traps</a></li>
+            <li><a href="/acme/views/traps.html" title="Traps">Traps</a></li>-->
         </ul>
     </nav>
 </header>
@@ -44,8 +33,8 @@
 
 <main id = "page">
 
-
-    <ul>
+<div id = "home">
+    <ul class = acme-list>
         <li><h2>Acme Rocket</h2></li>
         <li>Quick lighting fuse</li>
         <li>NHTSA approved seat belts</li>
@@ -64,6 +53,10 @@
     Roadrunner Pot Pie
     Roadrunner Soup
     Roadrunner Tacos
+    </div>
+    <div id = "content">
+
+    </div>
 
 </main>
 <footer id = "page-footer">
@@ -80,4 +73,4 @@
 </html>
 
 
-    <!-- Hero Product Review text -->
+

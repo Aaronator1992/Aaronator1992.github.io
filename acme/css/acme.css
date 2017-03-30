@@ -5,29 +5,36 @@
     background-image: url(/acme/images/site/background.jpg);
     background-repeat: no-repeat;
     image-orientation: stretch;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
 
 }
-#nav li {display: flex;
+#nav li, #page-footer li {
+    display: flex;
 
-    align-content: space-around;
+    align-content: inline;
     text-decoration: none;
     flex: 1;
     align-items: center;
-    background-color: aqua;
+    background-color: #de2226;
 
 
 }
 
-#main{display: flex;
 
-
+/**FOOTER**/
+#page-footer{
+    display: flex;
+    justify-content: center;
+    background-color: #de2226;
 }
 
-#footer{display: flex;
-}
-
-
-
+.flexlist{
+    display: flex;
+    align-content: space-around;
+    align-content: center;}
 
 /**************************************/
 /***********TABLET SCREEN**************/
@@ -37,11 +44,27 @@
     .content {
         max-width: 767px;
     }
+
+    #home{
+        display: none;
+
+
+    }
+
+
+
+
 }
 
 /**************************************/
 /************BROWSER*******************/
 /**************************************/
 @media screen and (min-width: 1024) {
+    #home{
+        display: none;
+
+
+    }
+
 
 }
