@@ -1,70 +1,120 @@
 /**************************************/
+
+
 /**********MOBILE SCREEN***************/
+
+
 /**************************************/
-#body{
+
+#body {
     background-image: url(/acme/images/site/background.jpg);
     background-repeat: no-repeat;
-    image-orientation: stretch;
+    background-size: 2000px 1500px;
     font-family: 'Raleway', sans-serif;
-    color:white;
     text-decoration: none;
     list-style-type: none;
-
 }
-#nav li, #page-footer li {
-    display: flex;
 
+#home {background-image: url(/acme/images/site/feature.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+align-content: flex-end;}
+
+.styling,
+.recipes {
+    max-width: 40%;
+   display:inline-block;
+}
+#duh{margin-top: 12em}
+
+
+h1 {
+    padding: .5em;
+    color: black;
+    background-color: white;
+}
+
+#content h1 {
+    padding:.75em;
+    color: black;
+    background-color: white;
+}
+
+nav .flexlist li,
+#page-footer li {
+    display: flex;
+    align-items: center;
     align-content: inline;
     text-decoration: none;
+    list-style-type: none;
     flex: 1;
     align-items: center;
     background-color: #de2226;
 
+}
 
+nav .flexlist ul {
+    border: 1px solid #000;
+    border-bottom: 1px solid #fff;
+    list-style: none;
+}
+
+nav .flexlist li {
+    display: flex;
+    flex: auto;
+    padding-left: 6em;
+    padding: 1em;
+}
+
+nav .flexlist a {
+    display: flex;
+    flex: auto;
+    background-color: #de2226;
+    color: #fff;
+    padding: 1% 5%;
+    text-decoration: none;
+}
+
+nav .flexlist a:hover {
+    background-color: #fff;
+    color: #000;
+    border-bottom: 1px solid #fff;
 }
 
 
+}
+
 /**FOOTER**/
-#page-footer{
+#page-footer {
     display: flex;
     justify-content: center;
     background-color: #de2226;
 }
-
-.flexlist{
+.flexlist {
     display: flex;
-    align-content: space-around;
-    align-content: center;}
-
-/**************************************/
-/***********TABLET SCREEN**************/
-/**************************************/
-
-@media screen and (min-width: 767px) {
-    .content {
-        max-width: 767px;
-    }
-
-    #home{
-        display: none;
-
-
-    }
-
-
-
+    align-content: space-between;
+    align-content: center;
 
 }
 
 /**************************************/
-/************BROWSER*******************/
+
+/***********TABLET SCREEN**************/
+
 /**************************************/
-@media screen and (min-width: 1024) {
-    #home{
-        display: none;
-
-
+@media screen and (min-width: 767px) {
+    /*    #container { align-content: center;
+        max-width: 1200px;
     }
 
+*/
+}
 
+/**************************************/
+
+/************BROWSER*******************/
+
+/**************************************/
+@media screen and (min-width: 1024) {
+    .
 }
