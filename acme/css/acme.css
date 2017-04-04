@@ -17,8 +17,7 @@
 
 #home {background-image: url(/acme/images/site/feature.jpg);
     background-repeat: no-repeat;
-    display: flex;
-align-content: flex-end;}
+     align-items: flex-end;}
 
 .styling,
 .recipes {
@@ -50,7 +49,7 @@ nav .flexlist li,
     flex: 1;
     align-items: center;
     background-color: #de2226;
-
+    
 }
 
 nav .flexlist ul {
@@ -94,7 +93,7 @@ nav .flexlist a:hover {
     display: flex;
     align-content: space-between;
     align-content: center;
-
+    
 }
 
 /**************************************/
