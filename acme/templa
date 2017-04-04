@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:300' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<link rel="stylesheet" type="text/css" href="/acme/css/acme.css" media="screen">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+<script src="/acme/js/acme.js"></script>
+
+<body>
+<div>
+<section>
+<header>
+
+
+
+<nav>
+
+<ul>
+<li></li>
+
+</ul>
+</nav>
+</header>
+
+
+<main>
+
+<section>
+<h1></h1>
+<section>
+<ul>
+<li><h2></h2></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</section>
+<section>
+    <section>
+        <section>
+            </section>
+            <section>
+            </section>
+            <section>
+            </section>
+            <section>
+            </section>
+        </section>
+
+            <section>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+
+        </section>
+    </section>
+    <section>
+    <h1></h1>
+        <section id ="product_img"></section>
+            <p id = "price"></p>
+            <p id = "description"></p>
+            <p id = "manufacturer"></p>
+            <p id = "reviews"></p>
+        </section>
+
+    </main>
+        <footer>
+            <ul>
+                <li></li>
+                <li></li> 
+                <li></li>
+            </ul>
+        </footer>
+    </section>
+    </div>
+    </body>
+</html>
