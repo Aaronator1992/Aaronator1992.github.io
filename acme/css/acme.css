@@ -78,7 +78,7 @@ nav .flexlist a {
     text-decoration: none;
 }
 
-nav .flexlist a:hover {
+nav, .flexlist, a:hover {
     background-color: #fff;
     color: #000;
     border-bottom: 1px solid #fff;
@@ -89,27 +89,29 @@ nav .flexlist a:hover {
     flex: 1 1 auto;
 }
 
-#rocket>ul>li{
+#rocket,ul,li{
     list-style-type: none;
 }
-#recipes>ul {
+.recipes,ul {
     margin: 0;
     padding: 0;
     display: flex;
     list-style: none;
     font-size: .7em;
 }
-#recipes>ul>li {
+.recipes,ul,li {
     flex: 1 1 auto;
     padding: .3em;
 }
 
 
-.styling>.ratings>ul>li {
+.styling,.ratings,ul,li {
+    display: flex;
+
     list-style-type: none;
 
 
-    font-size: .8em;
+    font-size: 1em;
 }
 
 
