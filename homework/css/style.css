@@ -29,7 +29,7 @@ footer {
     bottom: 0;
     width: 100%;
     position: fixed;
-    background-color: hotpink;
+    background-color: red;
     /*background-image: url(/images/new-tech-banner-image.jpg);*/
 }
 
@@ -70,7 +70,7 @@ body {
 
 body {
     align-items: center;
-    background: url(/images/maxresdefault.jpg);
+    background: url(/images/Red-Abstract-uhd-background.jpg);
     display: flex;
     font-family: 'Raleway', sans-serif;
     flex-direction: column;
