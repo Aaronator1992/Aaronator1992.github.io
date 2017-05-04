@@ -95,7 +95,7 @@ nav a:hover {
 .styling{
     display:flex;
     flex-wrap: wrap;
-max-width: 66%;
+max-width: 80%;
 }
 
 .flexlist {
